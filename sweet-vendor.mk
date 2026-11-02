@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/vidhance_calibration_108m:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_108m \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/vidhance_calibration_64m:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_64m \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
     vendor/xiaomi/sweet/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/sweet/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
@@ -178,23 +177,14 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
-    audio.primary.sm6150 \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
     libadm \
     libaudcal \
-    libaudio_log_utils \
     libaudioparsers \
-    libaudioroute_ext \
-    libhdmiedid \
-    libhfp \
     libqtigef \
-    libsndmonitor \
-    libspkrprot \
-    libxlog \
     com.qti.sensor.sweet_gc02m1 \
     com.qti.sensor.sweet_imx355 \
     com.qti.sensor.sweet_imx471_front \
@@ -318,7 +308,6 @@ PRODUCT_PACKAGES += \
     libmulticam_image_optical_zoom \
     libmulticam_video_optical_zoom \
     libnanopb \
-    libnotifyaudiohal \
     liboemcrypto \
     libpn553_fw \
     librelight_only \
@@ -351,7 +340,6 @@ PRODUCT_PACKAGES += \
     libxmi_hdr_checker \
     libxmi_high_dynamic_range \
     libxml2_vendor \
-    sensors.elliptic \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch \
